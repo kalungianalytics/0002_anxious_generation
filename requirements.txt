@@ -1,4 +1,4 @@
 streamlit>=1.30.0
 matplotlib>=3.7
 pandas>=1.5
-git+https://github.com/cmdcolin/highlight_text.git
+highlight-text
