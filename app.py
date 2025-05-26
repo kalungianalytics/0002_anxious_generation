@@ -60,13 +60,14 @@ custom_colors = {
     'FEMALE TOTAL': '#984ea3', 'MALE TOTAL': '#377eb8', 'ALL TOTAL': '#2B2B2B',
     'Girls': '#984ea3', 'Boys': '#377eb8', 'All': '#2B2B2B'
 }
+
 label_map = {'FEMALE TOTAL': 'Girls', 'MALE TOTAL': 'Boys', 'ALL TOTAL': 'All'}
 order = ['No usage', '<1\u202fh', '1 to <3\u202fh', '3 to <5\u202fh', '>5\u202fh']
 
 # === Streamlit Setup ===
 st.set_page_config(layout="wide", page_title="Teen Depression Visualization")
-st.title("Teen Depression and Social Media Use")
-st.markdown("This app displays two linked charts: one showing UK data by social media usage, and another showing trends over time in the US.")
+st.title("The Anxious Generation:")
+st.markdown("\nUnpacking the Data Behind Teen Mental Health")
 
 # === Layout Columns ===
 col1, col2, col3 = st.columns([0.025, 0.95, 0.025])
